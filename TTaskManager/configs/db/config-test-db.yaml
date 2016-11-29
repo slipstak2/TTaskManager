@@ -2,4 +2,7 @@ db:
   host: localhost
   user: root
   passwd: password
-  db: db_name
+  db: database_name
+a:
+  b:
+    c: value

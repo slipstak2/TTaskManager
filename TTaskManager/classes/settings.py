@@ -1,0 +1,1 @@
+from TTaskManager.global_settings import CONFIGS_PATH
