@@ -6,3 +6,17 @@ db:
 a:
   b:
     c: value
+array:
+  - 1
+  - 0.57
+  - second
+  - True
+map:
+  array:
+  - first
+  - 2
+  - map_in_array:
+      key0: value0
+  submap:
+    key1: value1
+    key2: value2
