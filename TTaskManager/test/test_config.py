@@ -2,7 +2,7 @@ import unittest
 from TTaskManager.classes.config import Config
 
 
-class TestConfigLoad(unittest.TestCase):
+class TestConfig(unittest.TestCase):
     def setUp(self):
         self.cfg = Config('db/config-test-db.yaml')
 
