@@ -8,3 +8,6 @@
 *.log
 *.tlog
 *.obj
+*.ipch
+*.tmp
+*.user

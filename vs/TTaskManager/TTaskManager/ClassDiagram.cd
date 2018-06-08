@@ -1,67 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="BaseTask">
-    <Position X="1.5" Y="1" Width="2.5" />
+  <Class Name="Task">
+    <Position X="0.75" Y="0.5" Width="4" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAABAAAEAAAAAAAIAAAAAAAAABAAAAAA=</HashCode>
+      <HashCode>AAAAIAAAAAAAAAAAAAWAAAAAAgIAAAAAAEAABAAEAAA=</HashCode>
       <FileName>task.h</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="_parentTask" />
-    </ShowAsAssociation>
-    <ShowAsCollectionAssociation>
-      <Field Name="_subTasks" />
-      <Field Name="_labels" />
-    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="TimeTask">
-    <Position X="1.25" Y="4" Width="3" />
+    <Position X="1" Y="4.25" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAIAACAAAAAAAAAAAAEAAAAAEAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
       <FileName>task.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Meeting">
-    <Position X="1.5" Y="7.5" Width="2.5" />
+    <Position X="5.5" Y="4.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>task.h</FileName>
-    </TypeIdentifier>
-    <ShowAsCollectionAssociation>
-      <Field Name="_participants" />
-    </ShowAsCollectionAssociation>
-  </Class>
-  <Class Name="Person">
-    <Position X="5.75" Y="7.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAA=</HashCode>
-      <FileName>person.h</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="_info" />
-      <Field Name="_add_info" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="AddPersonInfo">
-    <Position X="7.25" Y="9" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
-      <FileName>person.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PersonInfo">
-    <Position X="7.5" Y="5.75" Width="1.5" />
+    <Position X="5.5" Y="7.5" Width="4" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAQAAAAAA=</HashCode>
+      <HashCode>AAAAIAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>person.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_sex" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AddPersonInfo">
+    <Position X="10.5" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAMAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>person.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="TaskLabel">
-    <Position X="6.75" Y="1" Width="1.5" />
+  <Class Name="Person">
+    <Position X="9" Y="4.25" Width="3.75" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>label.h</FileName>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAA=</HashCode>
+      <FileName>person.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_add_info" />
+      <Field Name="_info" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TaskLabel">
+    <Position X="6" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIoAAAAAIABAAAAAAQAAAAAAMAAAAAABAAAAAAAA=</HashCode>
+      <FileName>task.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Enum Name="Sex">
+    <Position X="10.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABA=</HashCode>
+      <FileName>person.h</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
